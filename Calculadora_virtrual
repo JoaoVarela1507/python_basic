@@ -1,38 +1,38 @@
 ope = (input("Olá, eu me chamo VAL, sou sua calculadora virtual, qual operação você deseja realizar? 1. SOMA 2. SUBTRAÇÃO 3.DIVISÃO 4.MULTIPLICAÇÃO 5.POTÊNCIA 6.RAIZ (ME DIGA APENAS O NÚMERO): "))
 casas = int(input("QUANTAS CASAS DECIMAIS VOCÊ QUER? "))
 if ope =='1':
-  num1 = float(input("QUAL É O PRIMEIRO NUMERO?"))
-  num2 = float(input("QUAL É O SEGUNDO NUMERO?"))
+  num1 = float(input("QUAL É O PRIMEIRO NUMERO? "))
+  num2 = float(input("QUAL É O SEGUNDO NUMERO? "))
   calc = num1 + num2
   result = round(calc, casas)
   print("A SOMA DOS VALORES É:",result)
 if ope == '2':
-  num1 = float(input("QUAL É O PRIMEIRO NUMERO?"))
-  num2 = float(input("QUAL É O SEGUNDO NUMERO?"))
+  num1 = float(input("QUAL É O PRIMEIRO NUMERO? "))
+  num2 = float(input("QUAL É O SEGUNDO NUMERO? "))
   calc = num1 - num2
   result = round(calc, casas)
   print("A SUBTRAÇÃO DOS VALORES É:",result)
 if ope == '3':
-  num1 = float(input("QUAL É O PRIMEIRO NUMERO?"))
-  num2 = float(input("QUAL É O SEGUNDO NUMERO?"))
+  num1 = float(input("QUAL É O PRIMEIRO NUMERO? "))
+  num2 = float(input("QUAL É O SEGUNDO NUMERO? "))
   calc = num1 / num2
   result = round(calc, casas)
   print("A DIVISÃO DOS VALORES É:",result)
 if ope == '4':
-  num1 = float(input("QUAL É O PRIMEIRO NUMERO?"))
-  num2 = float(input("QUAL É O SEGUNDO NUMERO?"))
+  num1 = float(input("QUAL É O PRIMEIRO NUMERO? "))
+  num2 = float(input("QUAL É O SEGUNDO NUMERO? "))
   calc = num1 * num2 
   result = round(calc, casas)
   print("A MULTIPLICAÇÃO DOS VALORES É:",result)
 if ope == '5':
-  num1 = float(input("QUAL É O NÚMERO?"))
-  num2 = float(input("ELEVADO A QUAL POTENCIA?"))
+  num1 = float(input("QUAL É O NÚMERO? "))
+  num2 = float(input("ELEVADO A QUAL POTENCIA? "))
   calc = num1 ** num2
   result = round(calc, casas)
   print("O RESULTADO DA POTENCIAÇÃO É:",result)
 if ope == '6':
-  num1 = float(input("QUAL É O RADICANDO?"))
-  num2 = float(input("QUAL É O ÍNDICE?"))
+  num1 = float(input("QUAL É O RADICANDO? "))
+  num2 = float(input("QUAL É O ÍNDICE? "))
   calc = num1 ** 1/num2
   result = round(calc, casas)
   print("O RESULTADO DA RAIZ É:",result)
