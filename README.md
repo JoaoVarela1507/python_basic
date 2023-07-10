@@ -1,1 +1,1 @@
-Uma IA especializada em resoluções matemáticas# python_basic
+Uma IA especializada em resolucoes matemáticas# python_basic
